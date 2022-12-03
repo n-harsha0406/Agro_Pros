@@ -1,0 +1,29 @@
+.backi{
+    margin-left: 20px ;
+    font-size: larger;
+    text-transform: capitalize;
+    margin:10px 10px;
+    
+}
+.formdesign
+{
+    padding: 10px 10px;
+}
+button[type="submit"]
+{
+    size: 30px 60px;
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+  background-color: rgb(59, 173, 59);
+}
+button[type="submit"]:hover{
+  background-color: rgb(50, 203, 152);
+}
+a{
+    
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    
+}

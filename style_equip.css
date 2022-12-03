@@ -1,0 +1,17 @@
+div.container{
+    margin-left: 20px ;
+    font-size: large;
+    text-transform: capitalize;
+}
+button[type="submit"]
+{
+    margin-top: 5px;
+  background-color: rgb(59, 173, 59);
+}
+button[type="submit"]:hover{
+  background-color: rgb(50, 203, 152);
+}
+a{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  
+}
+div{
+  margin:0px 15px;
+  padding: 0px 20px;
+}
+h1{
+  text-align: center;
+}
+.bg{
+  margin: 10px;
+}
+.bcontainer
+{
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fseedlings-corn-growing-fertile-soil-260nw-1117964792.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fagriculture-background&tbnid=Ltgil6lCZ2jDZM&vet=12ahUKEwjN8LuH19r7AhXpk9gFHUOHA7wQMygMegUIARDjAQ..i&docid=Uby9siwAIy3iIM&w=390&h=280&q=farming%20images%20website%20backgroung&ved=2ahUKEwjN8LuH19r7AhXpk9gFHUOHA7wQMygMegUIARDjAQ");
+  background-position: center;
+  height: 100%;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  
+  justify-content: center;
+  margin: 15px 20px;
+  font-size: 17px;
+  padding: 8px;
+}
+/*form design
+.formdesign {
+  font-size: 20px;
+
+}
+
+.formdesign input {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.formerror {
+  color: red;
+} */
+.container{
+  margin-top: 100px;
+  text-transform: capitalize;
+  background-color: rgba(225, 222, 222, 0.886);
+  
+  border: 5px solid lightgray ;
+  border-radius: 5px;
+  padding: 10px 5px;
+  
+  max-width: 300px;
+
+}
+.image{
+  position: relative;
+  margin: 30px;
+}
+input[type="name"],
+input[type="password"],
+input[type="number"],
+select,button[type="submit"]
+{
+  width: 100%;
+  padding: 12px 10px;
+  border: 12px bold black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+
+
+}
+
+.but{
+  width: 100%;
+  margin-top: 5px;
+  border-collapse: separate;
+  border: auto bold black;
+  background-color: rgb(136, 218, 136);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+button[type="submit"]
+{
+  background-color: rgb(59, 173, 59);
+}
+button[type="submit"]:hover{
+  background-color: rgb(50, 203, 152);
+}
+
+.alert{
+  width: 100%;
+  background: rgb(0, 255, 106);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
+}
+.sub{
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+}
+a{
+  padding: 10px 10px  ;
+}

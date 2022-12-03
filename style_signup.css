@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    
+  }
+  label{
+    margin: 15px;
+    padding: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+  .bg{
+    margin: 10px;
+  }
+  .bcontainer
+  {
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fseedlings-corn-growing-fertile-soil-260nw-1117964792.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fagriculture-background&tbnid=Ltgil6lCZ2jDZM&vet=12ahUKEwjN8LuH19r7AhXpk9gFHUOHA7wQMygMegUIARDjAQ..i&docid=Uby9siwAIy3iIM&w=390&h=280&q=farming%20images%20website%20backgroung&ved=2ahUKEwjN8LuH19r7AhXpk9gFHUOHA7wQMygMegUIARDjAQ");
+    background-position: center;
+    height: 100%;
+  }
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    
+    justify-content: center;
+    margin: 15px 20px;
+    font-size: 17px;
+    padding: 8px;
+  }
+  .container{
+    
+    text-transform: capitalize;
+    background-color: rgba(225, 222, 222, 0.886);
+    
+    border: 5px solid lightgray ;
+    border-radius: 5px;
+    padding: 10px 5px;
+    
+    max-width: 300px;
+  
+  }
+  .image{
+    position: relative;
+    margin: 30px;
+  }
+  input[type="name"],
+  input[type="text"],
+  input[type="password"],
+  input[type="password"],
+  input[type="number"],
+  input[typr="number"],
+  input[typr="radio"],
+  select,button
+  {
+    width: 100%;
+    padding: 12px 10px;
+    border: 12px bold black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  
+  
+  }
+  
+  button[type="submit"]{
+    width: 100%;
+    margin-top: 5px;
+    border-collapse: separate;
+    border: auto bold black;
+    background-color: rgb(136, 218, 136);
+    padding: 15px;
+    border-radius: 5px;
+  }
+  button[type="submit"]:hover{
+    background-color: rgb(50, 203, 152);
+  }
